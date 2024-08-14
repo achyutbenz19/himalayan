@@ -14,8 +14,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${GeistSans.className} bg-[#160405]`}>
+    <html lang="en" suppressHydrationWarning>
+      <body className={`${GeistSans.className} mx-4 bg-[#1e0506]`}>
         <Header />
         {children}
       </body>
