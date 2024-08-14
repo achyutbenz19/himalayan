@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 type LogoProps = {
@@ -9,7 +10,7 @@ type LogoProps = {
 
 const Logo = ({ type = "primary", width = 70, height = 70 }: LogoProps) => {
   return (
-    <>
+    <Link href="/">
       {type === "primary" ? (
         <Image
           src="/logo2.png"
@@ -29,7 +30,7 @@ const Logo = ({ type = "primary", width = 70, height = 70 }: LogoProps) => {
           className="rounded-xl"
         />
       )}
-    </>
+    </Link>
   );
 };
 
