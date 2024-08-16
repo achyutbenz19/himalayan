@@ -6,7 +6,7 @@ const Hero = () => {
     <div className="mt-8 flex flex-col lg:flex-row gap-4 lg:max-w-full">
       <section className="w-full lg:mt-8 sm:w-7/12 md:w-full">
         <div className="max-w-xl md:max-w-3xl md:grid-cols-2">
-          <div className="font-thin">
+          <div>
             <h1 className="text-3xl tracking-tighter sm:text-4xl md:text-5xl xl:text-[3.4rem] 2xl:text-[3.75rem]">
               Authentic Indian & Nepali Flavors at Himalayan Restaurant
             </h1>
