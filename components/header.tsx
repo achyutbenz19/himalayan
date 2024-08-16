@@ -12,7 +12,7 @@ import { ChevronDown } from "lucide-react";
 
 const Header = () => {
   return (
-    <header className="flex py-4 pr-4 pl-2 h-full items-center justify-center lg:justify-between flex-col lg:flex-row w-full">
+    <header className="flex h-full items-center justify-center lg:justify-between flex-col lg:flex-row w-full">
       <div className="pt-1">
         <Logo height={150} width={150} />
       </div>
