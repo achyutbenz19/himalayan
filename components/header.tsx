@@ -56,7 +56,7 @@ const Header = () => {
           <Link href="/deals">Deals</Link>
         </Button>
         <Button
-          className="md:text-2xl text-xl font-thin md:flex hidden"
+          className="md:text-2xl text-xl font-thin sm:flex hidden"
           variant="link"
         >
           <Link href="/rewards">Rewards</Link>
