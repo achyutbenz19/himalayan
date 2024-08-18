@@ -5,7 +5,7 @@ import { ArrowRight, ChevronRight } from "lucide-react";
 
 const Blogs = () => {
   return (
-    <div className="lg:px-4 mt-6 w-full lg:mt-10">
+    <div className="lg:px-4 mt-8 w-full lg:mt-16">
       <span className="text-2xl tracking-tighter sm:text-4xl md:text-4xl xl:text-[3rem] 2xl:text-[3.4rem]">
         Our blogs
       </span>
