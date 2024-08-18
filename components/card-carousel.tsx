@@ -28,7 +28,7 @@ export const CarouselContext = createContext<{
   onCardClose: (index: number) => void;
   currentIndex: number;
 }>({
-  onCardClose: () => {},
+  onCardClose: () => { },
   currentIndex: 0,
 });
 
@@ -100,7 +100,7 @@ export const Carousel = ({ items, initialScroll = 0 }: CarouselProps) => {
 
           <div
             className={cn(
-              "flex flex-row justify-start gap-2",
+              "flex flex-row justify-start gap-2 lg:gap-4",
               "max-w-7xl mx-auto", // remove max-w-4xl if you want the carousel to span the full width of its container
             )}
           >
