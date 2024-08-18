@@ -10,8 +10,8 @@ export default function Home() {
     <main className="flex h-full flex-col">
       <div className="lg:m-8 m-4">
         <Hero />
-        <Locations />
         <Menu />
+        <Locations />
         <Blogs />
         {/* <Testimonials /> */}
       </div>

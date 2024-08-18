@@ -1,5 +1,5 @@
 import React from "react";
-import { BlogCard } from "./blog-card";
+import { CustomCard } from "./custom-card";
 import { Button } from "./ui/button";
 import { ArrowRight, ChevronRight } from "lucide-react";
 
@@ -11,10 +11,10 @@ const Blogs = () => {
       </span>
       <div className="flex flex-col sm:flex-row items-end h-full space-x-4 md:space-x-6">
         <div className="w-fit mt-4 grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-4">
-          <BlogCard />
-          <BlogCard />
+          <CustomCard author className="h-96" />
+          <CustomCard author className="h-96" />
           <div className="hidden md:block">
-            <BlogCard />
+            <CustomCard author className="h-96" />
           </div>
         </div>
         <Button className="mt-2 sm:mt-0 bg-transparent hover:bg-primary/10 border group items-center h-full flex text-white">
