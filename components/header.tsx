@@ -28,10 +28,10 @@ const Header = () => {
             </DropdownMenuTrigger>
             <DropdownMenuContent sideOffset={20}>
               <DropdownMenuItem className="cursor-pointer md:text-lg">
-                Niles location
+                Niles menu
               </DropdownMenuItem>
               <DropdownMenuItem className="cursor-pointer md:text-lg">
-                Chicago downtown
+                Chicago menu
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>

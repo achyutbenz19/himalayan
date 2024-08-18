@@ -2,6 +2,12 @@ import React from "react";
 import { CustomCard } from "./custom-card";
 import { Button } from "./ui/button";
 import { ChevronRight } from "lucide-react";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 
 const Menu = () => {
   return (
@@ -17,10 +23,22 @@ const Menu = () => {
             <CustomCard className="h-64 lg:h-80" />
           </div>
         </div>
-        <Button className="mt-2 sm:mt-0 bg-transparent hover:bg-primary/10 border group items-center h-full flex text-white">
-          <span>View all</span>
-          <ChevronRight className="flex-shrink-0" size={20} />
-        </Button>
+        <DropdownMenu>
+          <DropdownMenuTrigger>
+            <Button className="mt-2 sm:mt-0 bg-transparent hover:bg-primary/10 border group items-center h-full flex text-white">
+              <span>View all</span>
+              <ChevronRight className="flex-shrink-0" size={20} />
+            </Button>
+          </DropdownMenuTrigger>
+          <DropdownMenuContent sideOffset={10}>
+            <DropdownMenuItem className="cursor-pointer md:text-lg">
+              Niles menu
+            </DropdownMenuItem>
+            <DropdownMenuItem className="cursor-pointer md:text-lg">
+              Chicago menu
+            </DropdownMenuItem>
+          </DropdownMenuContent>
+        </DropdownMenu>
       </div>
     </div>
   );
