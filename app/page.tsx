@@ -11,7 +11,7 @@ export default function Home() {
       <div className="lg:m-8 m-4">
         <Hero />
         <Menu />
-        <Locations />
+        {/* <Locations /> */}
         <Blogs />
         {/* <Testimonials /> */}
       </div>

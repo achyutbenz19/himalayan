@@ -1,5 +1,4 @@
 import React from "react";
-import LocationCard from "./location-card";
 
 const Locations = () => {
   return (
@@ -7,10 +6,7 @@ const Locations = () => {
       <span className="text-2xl tracking-tighter sm:text-4xl md:text-4xl xl:text-[3rem] 2xl:text-[3.4rem]">
         Our locations
       </span>
-      <div className="flex gap-4 mt-4 flex-col md:flex-row">
-        <LocationCard />
-        <LocationCard />
-      </div>
+      <div className="flex gap-4 mt-4 flex-col md:flex-row"></div>
     </div>
   );
 };
