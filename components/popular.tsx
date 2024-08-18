@@ -9,11 +9,11 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 
-const Menu = () => {
+const PopularItems = () => {
   return (
     <div className="lg:px-4 mt-6 w-full lg:mt-10">
       <span className="text-2xl tracking-tighter sm:text-4xl md:text-4xl xl:text-[3rem] 2xl:text-[3.4rem]">
-        Our Menu
+        Popular dishes
       </span>
       <div className="flex flex-col sm:flex-row items-end h-full space-x-4 md:space-x-6">
         <div className="w-fit mt-4 grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-4">
@@ -44,4 +44,4 @@ const Menu = () => {
   );
 };
 
-export default Menu;
+export default PopularItems;
