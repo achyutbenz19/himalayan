@@ -26,7 +26,7 @@ const PopularItems = () => {
         <DropdownMenu>
           <DropdownMenuTrigger>
             <Button className="mt-2 sm:mt-0 bg-transparent hover:bg-primary/10 border group items-center h-full flex text-white">
-              <span>View all</span>
+              <span>View menu</span>
               <ChevronRight className="flex-shrink-0" size={20} />
             </Button>
           </DropdownMenuTrigger>
