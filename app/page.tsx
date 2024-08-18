@@ -3,6 +3,7 @@ import Footer from "@/components/footer";
 import Hero from "@/components/hero";
 import Locations from "@/components/locations";
 import PopularItems from "@/components/popular";
+import RewardDeals from "@/components/reward-deals";
 import { Testimonials } from "@/components/testimonials";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
         <PopularItems />
         {/* <Locations /> */}
         <Blogs />
+        <RewardDeals />
         {/* <Testimonials /> */}
       </div>
       <Footer />
