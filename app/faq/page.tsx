@@ -7,7 +7,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
-export const faqData = [
+const faqData = [
   {
     title: "What kind of cuisine do you serve?",
     content: (
