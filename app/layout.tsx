@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { GeistSans } from "geist/font/sans";
 import "./globals.css";
 import Header from "@/components/header";
+import Footer from "@/components/footer";
 
 export const metadata: Metadata = {
   title: {
@@ -43,6 +44,7 @@ export default function RootLayout({
       <body className={`${GeistSans.className} font-thin mt-4 bg-[#1e0506]`}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
