@@ -12,7 +12,7 @@ export default function Home() {
       <div className="lg:m-8 m-4">
         <Hero />
         <PopularItems />
-        {/* <Locations /> */}
+        <Locations />
         <RewardDeals />
         <Blogs />
         {/* <Testimonials /> */}
