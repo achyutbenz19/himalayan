@@ -15,7 +15,7 @@ export function LocationCard({
       <DirectionAwareHover imageUrl={imageUrl}>
         <p className="font-bold text-xl">{name}</p>
         <p className="font-normal text-neutral-300 text-sm">{location}</p>
-        <div className="mt-2 flex gap-2">
+        <div className="mt-3 flex gap-2">
           <Button className="hidden md:block">Order now</Button>
           <Button className="md:bg-neutral-800 md:text-white md:hover:bg-neutral-700">
             Contact us
