@@ -1,63 +1,33 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { BlogPost } from "./[blogId]/page";
 
 const BlogPage = () => {
-  const blogs = [
+  const blogs: BlogPost[] = [
     {
-      id: 1,
+      id: "1",
       title: "Exploring the Flavors of the Himalayas",
       author: "Manu Arora",
       readTime: "5 min read",
       date: "August 18, 2024",
       description:
         "Discover the rich and diverse flavors that the Himalayan region has to offer, from spicy curries to sweet delicacies.",
-      image:
+      imageUrl:
         "https://images.unsplash.com/photo-1544077960-604201fe74bc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1651&q=80",
+      content: "",
     },
     {
-      id: 2,
+      id: "2",
       title: "The Art of Himalayan Cooking",
       author: "Nina Sharma",
       readTime: "4 min read",
       date: "August 10, 2024",
       description:
         "Learn the secrets of Himalayan cooking, a blend of aromatic spices and traditional techniques passed down through generations.",
-      image:
+      imageUrl:
         "https://images.unsplash.com/photo-1544077960-604201fe74bc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1651&q=80",
-    },
-    {
-      id: 3,
-      title: "Traditional Dishes from the Mountain Region",
-      author: "Rajesh Singh",
-      readTime: "6 min read",
-      date: "July 25, 2024",
-      description:
-        "Explore the traditional dishes of the Himalayan region, known for their unique flavors and health benefits.",
-      image:
-        "https://images.unsplash.com/photo-1544077960-604201fe74bc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1651&q=80",
-    },
-    {
-      id: 3,
-      title: "Traditional Dishes from the Mountain Region",
-      author: "Rajesh Singh",
-      readTime: "6 min read",
-      date: "July 25, 2024",
-      description:
-        "Explore the traditional dishes of the Himalayan region, known for their unique flavors and health benefits.",
-      image:
-        "https://images.unsplash.com/photo-1544077960-604201fe74bc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1651&q=80",
-    },
-    {
-      id: 3,
-      title: "Traditional Dishes from the Mountain Region",
-      author: "Rajesh Singh",
-      readTime: "6 min read",
-      date: "July 25, 2024",
-      description:
-        "Explore the traditional dishes of the Himalayan region, known for their unique flavors and health benefits.",
-      image:
-        "https://images.unsplash.com/photo-1544077960-604201fe74bc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1651&q=80",
+      content: "",
     },
   ];
 
@@ -67,12 +37,12 @@ const BlogPage = () => {
         {blogs.map((blog) => (
           <Link
             key={blog.id}
-            href="#"
+            href={`/blog/${blog.id}`}
             className="grid grid-cols-[120px_1fr] gap-4 items-start hover:bg-muted/10 rounded-2xl p-4 transition-colors"
             prefetch={false}
           >
             <Image
-              src={blog.image}
+              src={blog.imageUrl}
               width={120}
               height={80}
               alt={blog.title}
