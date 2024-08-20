@@ -6,7 +6,7 @@ const RewardIdPage = () => {
   return (
     <div>
       <div className="md:mx-8 md:mt-16 mx-4 mt-8 text-white">
-        <h1 className="text-4xl text-white font-bold mb-4">
+        <h1 className="text-4xl text-white font-normal mb-4">
           Welcome to Himalayan Restaurant
         </h1>
         <p className="text-lg text-neutral-500 mb-4">

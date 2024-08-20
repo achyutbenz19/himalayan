@@ -46,7 +46,7 @@ const Nav = () => {
     <div className="flex shrink-0">
       <div className="flex flex-row w-full">
         <div className="w-1/2 flex flex-col space-y-1 justify-center">
-          <Link className="hover:text-primary/80 w-fit" href="/home">
+          <Link className="hover:text-primary/80 w-fit" href="/">
             Home
           </Link>
           <Link className="hover:text-primary/80 w-fit" href="/about">

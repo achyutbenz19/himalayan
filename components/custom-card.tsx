@@ -39,7 +39,7 @@ export function CustomCard({
           <div />
         )}
         <div className="text content">
-          <h1 className="font-bold text-xl md:text-2xl text-gray-50 relative z-10">
+          <h1 className="font-normal text-xl md:text-2xl text-gray-50 relative z-10">
             Author Card
           </h1>
           <p className="font-normal text-sm text-gray-50 relative z-10 my-4">

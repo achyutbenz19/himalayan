@@ -44,7 +44,7 @@ export default function BlogIdPage({ params }: { params: { blogId: string } }) {
         />
       </Head>
       <div className="max-w-3xl mx-auto px-4 py-8">
-        <h1 className="text-4xl font-bold mb-4">{post.title}</h1>
+        <h1 className="text-4xl font-normal mb-4">{post.title}</h1>
         <div className="flex items-center mb-6">
           <Image
             src={"/logo2.png"}
