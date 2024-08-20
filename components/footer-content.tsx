@@ -75,8 +75,8 @@ const Nav = () => {
           <Link className="hover:text-primary/80 w-fit" href="/deals">
             Deals & coupons
           </Link>
-          <Link className="hover:text-primary/80 w-fit" href="/blog">
-            Blogs
+          <Link className="hover:text-primary/80 w-fit" href="/">
+            Popular items
           </Link>
         </div>
       </div>
