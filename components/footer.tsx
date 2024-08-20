@@ -1,7 +1,13 @@
+"use client";
 import React from "react";
 import Content from "./footer-content";
+import { usePathname } from "next/navigation";
 
 export default function Footer() {
+  const params = usePathname();
+
+  if (params.includes("/blog")) return null;
+
   return (
     <div
       className="relative h-[350px] md:h-[500px]"
