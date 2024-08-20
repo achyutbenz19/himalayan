@@ -4,9 +4,9 @@ import Content from "./footer-content";
 import { usePathname } from "next/navigation";
 
 export default function Footer() {
-  const params = usePathname();
+  const pathname = usePathname();
 
-  if (params.includes("/blog")) return null;
+  if (pathname.includes("/blog") || pathname.includes("/faq")) return null;
 
   return (
     <div
