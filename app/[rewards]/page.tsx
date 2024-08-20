@@ -2,7 +2,7 @@ import React from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
-const Page = () => {
+const RewardIdPage = () => {
   return (
     <div>
       <div className="md:mx-8 md:mt-16 mx-4 mt-8 text-white">
@@ -22,32 +22,32 @@ const Page = () => {
             <CardTitle>Email Sign Up</CardTitle>
           </CardHeader>
           <CardContent>
-            <p>For Deals, Coupons etc</p>
+            <p>For deals, coupons, etc.</p>
             <Button className="mt-4 bg-neutral-800 hover:bg-neutral-700 text-white">
-              EMAIL SIGN UP
+              Email sign up
             </Button>
             <p className="mt-4">For location pickup</p>
             <Button className="mt-2 bg-neutral-800 hover:bg-neutral-700 text-white">
-              LOCATION PICK UP
+              Location pickup
             </Button>
           </CardContent>
         </Card>
 
         <Card>
           <CardHeader>
-            <CardTitle>LOYALTY SIGN UP</CardTitle>
+            <CardTitle>Loyalty Sign Up</CardTitle>
           </CardHeader>
           <CardContent>
             <p className="text-red-500 font-medium">
-              Earn 1 point for every $ 1 spent
+              Earn 1 point for every $1 spent
             </p>
-            <p className="mt-2">$ 5 discount for every 100 points</p>
+            <p className="mt-2">$5 discount for every 100 points</p>
             <p className="mt-2">
               Join Himalayan Restaurant Rewards and start earning delicious
               rewards!
             </p>
             <Button className="mt-4 bg-neutral-800 hover:bg-neutral-700 text-white">
-              LOYALTY SIGN UP
+              Loyalty sign up
             </Button>
           </CardContent>
         </Card>
@@ -57,9 +57,9 @@ const Page = () => {
             <CardTitle>e-Gift Card</CardTitle>
           </CardHeader>
           <CardContent>
-            <p>Get the e-Gift cards and gift to your favourite ones.</p>
+            <p>Get the e-Gift cards and gift to your favorite ones.</p>
             <Button className="mt-4 bg-neutral-800 hover:bg-neutral-700 text-white">
-              PURCHASE
+              Purchase
             </Button>
           </CardContent>
         </Card>
@@ -68,4 +68,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default RewardIdPage;
