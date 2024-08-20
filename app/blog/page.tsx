@@ -37,10 +37,32 @@ const BlogPage = () => {
       image:
         "https://images.unsplash.com/photo-1544077960-604201fe74bc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1651&q=80",
     },
+    {
+      id: 3,
+      title: "Traditional Dishes from the Mountain Region",
+      author: "Rajesh Singh",
+      readTime: "6 min read",
+      date: "July 25, 2024",
+      description:
+        "Explore the traditional dishes of the Himalayan region, known for their unique flavors and health benefits.",
+      image:
+        "https://images.unsplash.com/photo-1544077960-604201fe74bc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1651&q=80",
+    },
+    {
+      id: 3,
+      title: "Traditional Dishes from the Mountain Region",
+      author: "Rajesh Singh",
+      readTime: "6 min read",
+      date: "July 25, 2024",
+      description:
+        "Explore the traditional dishes of the Himalayan region, known for their unique flavors and health benefits.",
+      image:
+        "https://images.unsplash.com/photo-1544077960-604201fe74bc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1651&q=80",
+    },
   ];
 
   return (
-    <main className="flex-1 md:mt-12 px-4 md:px-6 py-8">
+    <main className="flex-1 px-4 md:px-6 py-8">
       <div className="max-w-3xl mx-auto grid gap-8">
         {blogs.map((blog) => (
           <Link
