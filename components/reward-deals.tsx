@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const RewardDeals = () => {
   return (
@@ -14,10 +15,14 @@ const RewardDeals = () => {
         </p>
       </div>
       <div className="flex space-x-2">
-        <Button variant="secondary">View deals</Button>
-        <Button className="bg-neutral-800 text-white hover:bg-neutral-700">
-          Rewards program
-        </Button>
+        <Link href="/deals">
+          <Button variant="secondary">View deals</Button>
+        </Link>
+        <Link href="/rewards">
+          <Button className="bg-neutral-800 text-white hover:bg-neutral-700">
+            Rewards program
+          </Button>
+        </Link>
       </div>
     </div>
   );

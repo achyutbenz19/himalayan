@@ -2,6 +2,7 @@ import React from "react";
 import { CustomCard } from "./custom-card";
 import { Button } from "./ui/button";
 import { ArrowRight, ChevronRight } from "lucide-react";
+import Link from "next/link";
 
 const Blogs = () => {
   return (
@@ -17,10 +18,12 @@ const Blogs = () => {
             <CustomCard author className="h-96" />
           </div>
         </div>
-        <Button className="mt-2 sm:mt-0 bg-transparent hover:bg-primary/10 border group items-center h-full flex text-white">
-          <span>Read more</span>
-          <ChevronRight className="flex-shrink-0" size={20} />
-        </Button>
+        <Link href="/blog">
+          <Button className="mt-2 sm:mt-0 bg-transparent hover:bg-primary/10 border group items-center h-full flex text-white">
+            <span>Read more</span>
+            <ChevronRight className="flex-shrink-0" size={20} />
+          </Button>
+        </Link>
       </div>
     </div>
   );
