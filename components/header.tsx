@@ -65,7 +65,7 @@ const Header = () => {
           className="md:text-2xl text-xl font-thin md:flex hidden"
           variant="link"
         >
-          <Link href="/blog">Blog</Link>
+          <Link href="/blog">Blogs</Link>
         </Button>
       </div>
     </header>

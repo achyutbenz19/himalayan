@@ -25,7 +25,7 @@ const AboutPage = () => {
         </p>
         <p>
           Located in Niles and the vibrant South Loop, our restaurant is perfect
-          for a casual weeknight dinner or a special gathering. Whether you're a
+          for a casual weeknight dinner or a special gathering. Whether you&apos;re a
           local or a visitor, we invite you to experience the warmth of our
           hospitality and the bold flavors of our kitchen.
         </p>
