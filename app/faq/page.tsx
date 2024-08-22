@@ -6,6 +6,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import Contact from "@/components/contact";
 
 const faqData = [
   {
@@ -112,9 +113,7 @@ const FAQ = () => {
       </h1>
       <span className="mt-6 lg:mb-12 mb-10 text-center">
         Can&apos;t find the answer here? &nbsp;
-        <Link href="/contact" className="underline">
-          Contact us
-        </Link>
+        <Contact />
       </span>
       <div className="px-4 container max-w-[900px] mx-auto">
         <Accordion type="single" collapsible>

@@ -25,9 +25,9 @@ const AboutPage = () => {
         </p>
         <p>
           Located in Niles and the vibrant South Loop, our restaurant is perfect
-          for a casual weeknight dinner or a special gathering. Whether you&apos;re a
-          local or a visitor, we invite you to experience the warmth of our
-          hospitality and the bold flavors of our kitchen.
+          for a casual weeknight dinner or a special gathering. Whether
+          you&apos;re a local or a visitor, we invite you to experience the
+          warmth of our hospitality and the bold flavors of our kitchen.
         </p>
       </div>
       <h1 className="text-3xl text-white mt-6 mb-2">Gallery</h1>

@@ -1,6 +1,7 @@
 import React from "react";
 import { HeroCarosel } from "./hero-carosel";
 import { Button } from "./ui/button";
+import Contact from "./contact";
 
 const Hero = () => {
   return (
@@ -22,9 +23,7 @@ const Hero = () => {
         </section>
         <div className="w-full flex space-x-2">
           <Button>Order now</Button>
-          <Button className="bg-neutral-800 text-white hover:bg-neutral-700">
-            Call us
-          </Button>
+          <Contact />
         </div>
       </div>
       <div className="mt-4 lg:w-8/12 w-full">

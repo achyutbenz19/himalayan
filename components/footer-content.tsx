@@ -41,6 +41,10 @@ const Section2 = () => {
   );
 };
 
+const handleCall = () => {
+  window.location.href = "tel:+18473244150";
+};
+
 const Nav = () => {
   return (
     <div className="flex shrink-0">
@@ -55,9 +59,9 @@ const Nav = () => {
           <Link className="hover:text-primary/80 w-fit" href="/faq">
             FAQ
           </Link>
-          <Link className="hover:text-primary/80 w-fit" href="/contact">
+          <span className="hover:text-primary/80 w-fit" onClick={handleCall}>
             Contact us
-          </Link>
+          </span>
           <Link className="hover:text-primary/80 w-fit" href="/blog">
             Blog
           </Link>

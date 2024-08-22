@@ -1,3 +1,4 @@
+import Contact from "./contact";
 import { DirectionAwareHover } from "./direction-aware-hover";
 import { Button } from "./ui/button";
 
@@ -17,9 +18,7 @@ export function LocationCard({
         <p className="font-normal text-neutral-300 text-sm">{location}</p>
         <div className="mt-3 flex gap-2">
           <Button className="hidden md:block">Order now</Button>
-          <Button className="md:bg-neutral-800 md:text-white md:hover:bg-neutral-700">
-            Contact us
-          </Button>
+          <Contact className="md:bg-neutral-800 md:text-white md:hover:bg-neutral-700" />
         </div>
       </DirectionAwareHover>
     </div>
