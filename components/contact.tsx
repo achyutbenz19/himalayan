@@ -21,13 +21,7 @@ const Contact = ({ className }: { className?: string }) => {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger>
-        <Button
-          className={cn(
-            className
-              ? className
-              : "sm:mt-0 bg-transparent hover:bg-primary/10 border group items-center h-full flex text-white",
-          )}
-        >
+        <Button variant="outline">
           <span>Contact us</span>
           <ChevronDown className="flex-shrink-0" size={20} />
         </Button>

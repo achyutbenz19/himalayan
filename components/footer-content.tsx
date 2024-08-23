@@ -5,7 +5,7 @@ import { FaFacebook, FaInstagram, FaPinterest } from "react-icons/fa";
 
 export default function Content() {
   return (
-    <div className="bg-[#ee4c28cf] p-4 h-full w-full flex flex-col justify-between">
+    <div className="bg-primary text-primary-foreground p-4 h-full w-full flex flex-col justify-between">
       <Nav />
       <Section2 />
     </div>
@@ -21,7 +21,7 @@ type SocialLinkProps = {
 
 const SocialLink: React.FC<SocialLinkProps> = ({ href, icon: Icon }) => (
   <Link href={href} target="_blank" rel="noopener noreferrer">
-    <Icon size={IconSize} />
+    <Icon className="hover:text-secondary/80" size={IconSize} />
   </Link>
 );
 
@@ -50,36 +50,36 @@ const Nav = () => {
     <div className="flex shrink-0">
       <div className="flex flex-row w-full">
         <div className="w-1/2 flex flex-col space-y-1 justify-center">
-          <Link className="hover:text-primary/80 w-fit" href="/">
+          <Link className="hover:text-secondary/80 w-fit" href="/">
             Home
           </Link>
-          <Link className="hover:text-primary/80 w-fit" href="/about">
+          <Link className="hover:text-secondary/80 w-fit" href="/about">
             About
           </Link>
-          <Link className="hover:text-primary/80 w-fit" href="/faq">
+          <Link className="hover:text-secondary/80 w-fit" href="/faq">
             FAQ
           </Link>
-          <span className="hover:text-primary/80 w-fit" onClick={handleCall}>
+          <span className="hover:text-secondary/80 w-fit" onClick={handleCall}>
             Contact us
           </span>
-          <Link className="hover:text-primary/80 w-fit" href="/blog">
+          <Link className="hover:text-secondary/80 w-fit" href="/blog">
             Blog
           </Link>
         </div>
         <div className="w-1/2 flex flex-col space-y-1 justify-center">
-          <Link className="hover:text-primary/80 w-fit" href="/chicago-menu">
+          <Link className="hover:text-secondary/80 w-fit" href="/chicago-menu">
             Chicago menu
           </Link>
-          <Link className="hover:text-primary/80 w-fit" href="/niles-menu">
+          <Link className="hover:text-secondary/80 w-fit" href="/niles-menu">
             Niles menu
           </Link>
-          <Link className="hover:text-primary/80 w-fit" href="/rewards">
+          <Link className="hover:text-secondary/80 w-fit" href="/rewards">
             Rewards
           </Link>
-          <Link className="hover:text-primary/80 w-fit" href="/deals">
+          <Link className="hover:text-secondary/80 w-fit" href="/deals">
             Deals & coupons
           </Link>
-          <Link className="hover:text-primary/80 w-fit" href="/">
+          <Link className="hover:text-secondary/80 w-fit" href="/">
             Popular items
           </Link>
         </div>

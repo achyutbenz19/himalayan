@@ -19,7 +19,7 @@ const Blogs = () => {
           </div>
         </div>
         <Link href="/blog">
-          <Button className="mt-2 sm:mt-0 bg-transparent hover:bg-primary/10 border group items-center h-full flex text-white">
+          <Button className="text-secondary-foreground mt-2 sm:mt-0 bg-transparent hover:bg-primary/10 border group items-center h-full flex ">
             <span>Read more</span>
             <ChevronRight className="flex-shrink-0" size={20} />
           </Button>

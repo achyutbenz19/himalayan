@@ -41,7 +41,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${GeistSans.className} font-thin mt-4 bg-[#1e0506]`}>
+      <body className={`${GeistSans.className} font-thin mt-4`}>
         <Header />
         {children}
         <Footer />

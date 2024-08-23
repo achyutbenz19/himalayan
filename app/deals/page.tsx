@@ -92,7 +92,7 @@ const page = () => {
                     <h3 className="text-xl font-normal">{deal.title}</h3>
                     <p className="text-muted-foreground">{deal.description}</p>
                     <Link href={deal.link}>
-                      <Button className="mt-3 bg-neutral-800 text-white hover:bg-neutral-700">
+                      <Button className="mt-3 bg-neutral-800  hover:bg-neutral-700">
                         Claim Offer
                       </Button>
                     </Link>

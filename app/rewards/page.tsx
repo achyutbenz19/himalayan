@@ -5,8 +5,8 @@ import { Button } from "@/components/ui/button";
 const RewardIdPage = () => {
   return (
     <div>
-      <div className="md:mx-8 md:mt-16 mx-4 mt-8 text-white">
-        <h1 className="text-4xl text-white font-normal mb-4">
+      <div className="md:mx-8 md:mt-16 mx-4 mt-8 ">
+        <h1 className="text-4xl  font-normal mb-4">
           Welcome to Himalayan Restaurant
         </h1>
         <p className="text-lg text-neutral-500 mb-4">
@@ -23,11 +23,11 @@ const RewardIdPage = () => {
           </CardHeader>
           <CardContent>
             <p>For deals, coupons, etc.</p>
-            <Button className="mt-4 bg-neutral-800 hover:bg-neutral-700 text-white">
+            <Button className="mt-4 bg-neutral-800 hover:bg-neutral-700 ">
               Email sign up
             </Button>
             <p className="mt-4">For location pickup</p>
-            <Button className="mt-2 bg-neutral-800 hover:bg-neutral-700 text-white">
+            <Button className="mt-2 bg-neutral-800 hover:bg-neutral-700 ">
               Location pickup
             </Button>
           </CardContent>
@@ -46,7 +46,7 @@ const RewardIdPage = () => {
               Join Himalayan Restaurant Rewards and start earning delicious
               rewards!
             </p>
-            <Button className="mt-4 bg-neutral-800 hover:bg-neutral-700 text-white">
+            <Button className="mt-4 bg-neutral-800 hover:bg-neutral-700 ">
               Loyalty sign up
             </Button>
           </CardContent>
@@ -58,7 +58,7 @@ const RewardIdPage = () => {
           </CardHeader>
           <CardContent>
             <p>Get the e-Gift cards and gift to your favorite ones.</p>
-            <Button className="mt-4 bg-neutral-800 hover:bg-neutral-700 text-white">
+            <Button className="mt-4 bg-neutral-800 hover:bg-neutral-700 ">
               Purchase
             </Button>
           </CardContent>

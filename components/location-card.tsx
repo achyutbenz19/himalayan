@@ -14,11 +14,11 @@ export function LocationCard({
   return (
     <div className="flex w-full items-center justify-center">
       <DirectionAwareHover imageUrl={imageUrl}>
-        <p className="font-normal text-xl">{name}</p>
+        <p className="font-normal text-white text-xl">{name}</p>
         <p className="font-normal text-neutral-300 text-sm">{location}</p>
         <div className="mt-3 flex gap-2">
           <Button className="hidden md:block">Order now</Button>
-          <Contact className="md:bg-neutral-800 md:text-white md:hover:bg-neutral-700" />
+          <Contact className="md:bg-neutral-800 md: md:hover:bg-neutral-700" />
         </div>
       </DirectionAwareHover>
     </div>

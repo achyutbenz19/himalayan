@@ -104,7 +104,7 @@ export const DirectionAwareHover = ({
               ease: "easeOut",
             }}
             className={cn(
-              "text-white hidden md:block absolute bottom-4 right-1 left-4 z-40",
+              " hidden md:block absolute bottom-4 right-1 left-4 z-40",
               childrenClassName,
             )}
           >
@@ -114,7 +114,7 @@ export const DirectionAwareHover = ({
       </AnimatePresence>
       <div
         className={cn(
-          "text-white md:hidden absolute bottom-4 right-1 left-4 z-40",
+          " md:hidden absolute bottom-4 right-1 left-4 z-40",
           childrenClassName,
         )}
       >

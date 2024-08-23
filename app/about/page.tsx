@@ -3,10 +3,8 @@ import React from "react";
 
 const AboutPage = () => {
   return (
-    <div className="md:mx-8 md:mt-12 mx-4 mt-8 text-white">
-      <h1 className="text-4xl text-white font-normal mb-4">
-        About Himalayan Restaurant
-      </h1>
+    <div className="md:mx-8 md:mt-12 mx-4 mt-8 ">
+      <h1 className="text-4xl  font-normal mb-4">About Himalayan Restaurant</h1>
       <div className="max-w-3xl space-y-1 mb-4 text-neutral-300">
         <p>
           Established in 2003, Himalayan Restaurant has been a cornerstone of
@@ -30,7 +28,7 @@ const AboutPage = () => {
           warmth of our hospitality and the bold flavors of our kitchen.
         </p>
       </div>
-      <h1 className="text-3xl text-white mt-6 mb-2">Gallery</h1>
+      <h1 className="text-3xl  mt-6 mb-2">Gallery</h1>
       <div className="mb-12">
         <Gallery />
       </div>
