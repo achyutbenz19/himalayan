@@ -5,7 +5,7 @@ const AboutPage = () => {
   return (
     <div className="md:mx-8 md:mt-12 mx-4 mt-8 ">
       <h1 className="text-4xl  font-normal mb-4">About Himalayan Restaurant</h1>
-      <div className="max-w-3xl space-y-1 mb-4 text-neutral-300">
+      <div className="max-w-3xl space-y-1 mb-4 text-primary-300">
         <p>
           Established in 2003, Himalayan Restaurant has been a cornerstone of
           authentic Indian and Nepali cuisine in the Chicagoland area. Founded

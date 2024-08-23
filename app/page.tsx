@@ -15,7 +15,7 @@ export default function Home() {
         <Locations />
         <RewardDeals />
         <Blogs />
-        {/* <Testimonials /> */}
+        <Testimonials />
       </div>
     </main>
   );
