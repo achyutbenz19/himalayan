@@ -4,7 +4,10 @@ import { InfiniteMovingCards } from "./infinite-moving-cards";
 
 export function Testimonials() {
   return (
-    <div className="lg:px-8 mt-10 w-full lg:mt-10">
+    <div className="lg:px-4 mt-10 w-full lg:mt-18">
+      <span className="text-2xl tracking-tighter sm:text-4xl md:text-4xl xl:text-[3rem] 2xl:text-[3.4rem]">
+        What our customers say
+      </span>
       <InfiniteMovingCards
         items={testimonials}
         direction="right"
