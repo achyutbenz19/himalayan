@@ -16,12 +16,10 @@ const RewardDeals = () => {
       </div>
       <div className="flex space-x-2">
         <Link href="/deals">
-          <Button variant="secondary">View deals</Button>
+          <Button>View deals</Button>
         </Link>
         <Link href="/rewards">
-          <Button className="bg-neutral-800  hover:bg-neutral-700">
-            Rewards program
-          </Button>
+          <Button variant="secondary">Rewards program</Button>
         </Link>
       </div>
     </div>
