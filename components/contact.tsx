@@ -25,7 +25,7 @@ const Contact = ({ className }: { className?: string }) => {
           className={cn(
             className
               ? className
-              : "mt-2 sm:mt-0 bg-transparent hover:bg-primary/10 border group items-center h-full flex text-white",
+              : "sm:mt-0 bg-transparent hover:bg-primary/10 border group items-center h-full flex text-white",
           )}
         >
           <span>Contact us</span>
